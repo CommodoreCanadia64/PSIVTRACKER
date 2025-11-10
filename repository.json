@@ -1,0 +1,15 @@
+{
+    "name": "Phantasy Star IV: Profound Distortion Emotracker Pack",
+    "packages": [
+      {
+        "name": "PSIV PD randozmizer emotracker pack",
+        "author": "CommodoreCanadia64",
+        "game_name": "Phantasy Star IV",
+        "version": "6.2.0",
+        "flags": [ "map", "pins", "chathud" ],
+        "required_app_version": "2.3.8.19",
+        "uid": "phantasystariv_pdrtracker_commodorecanadia64",
+        "link": "https://drive.usercontent.google.com/u/0/uc?id=1UYQN5_Snoa2iN_STdkPKL7UeJkr6E0hP&export=download"
+      }
+    ]
+  }

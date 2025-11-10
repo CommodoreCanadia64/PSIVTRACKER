@@ -1,0 +1,237 @@
+[
+	{
+		"name": "map",
+		"location_size": 20,
+		"location_border_thickness": 2,
+		"img": "maps/Map.png"
+	},
+	{
+		"name": "motavia",
+		"location_size": 60,
+		"location_border_thickness": 5,
+		"img": "maps/motavia.png"
+	},
+	{
+		"name": "bioplant",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/bioplant.png"
+	},
+	{
+		"name": "rykros",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/rykros.png"
+	},
+	{
+		"name": "desolis",
+		"location_size": 60,
+		"location_border_thickness": 5,
+		"img": "maps/desolis.png"
+	},
+	{
+		"name": "acbasement",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/acbasement.png"
+	},
+	{
+		"name": "acproper",
+		"location_size": 60,
+		"location_border_thickness": 5,
+		"img": "maps/acproper.png"
+	},
+	{
+		"name": "aiedo",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "maps/aiedo.png"
+	},
+	{
+		"name": "angertower",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "maps/angertower.png"
+	},
+	{
+		"name": "zelan",
+		"location_size": 25,
+		"location_border_thickness": 5,
+		"img": "maps/zelan.png"
+	},
+    {
+		"name": "kuran",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/kuran.png"
+	},
+	{
+		"name": "hanger",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "maps/hanger.png"
+	},
+	{
+		"name": "birthvalley",
+		"location_size": 25,
+		"location_border_thickness": 5,
+		"img": "maps/birthvalley.png"
+	},
+	{
+		"name": "climate",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/climate.png"
+	},
+	{
+		"name": "courage",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/courage.png"
+	},
+	{
+		"name": "esper",
+		"location_size": 35,
+		"location_border_thickness": 5,
+		"img": "maps/esper.png"
+	},
+	{
+		"name": "garuberk",
+		"location_size": 50,
+		"location_border_thickness": 5,
+		"img": "maps/garuberk.png"
+	},
+	{
+		"name": "gumbious",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "maps/gumbious.png"
+	},
+	{
+		"name": "kadary",
+		"location_size": 25,
+		"location_border_thickness": 5,
+		"img": "maps/kadary.png"
+	},
+	{
+		"name": "monsen",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "maps/monsen.png"
+	},
+	{
+		"name": "ladea",
+		"location_size": 45,
+		"location_border_thickness": 5,
+		"img": "maps/ladea.png"
+	},
+	{
+		"name": "mile",
+		"location_size": 25,
+		"location_border_thickness": 5,
+		"img": "maps/mile.png"
+	},
+	{
+		"name": "molcum",
+		"location_size": 25,
+		"location_border_thickness": 5,
+		"img": "maps/molcum.png"
+	},
+	{
+		"name": "ziofort",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/ziofort.png"
+	},
+	{
+		"name": "mystvale",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "maps/mystvale.png"
+	},
+	{
+		"name": "nurvus",
+		"location_size": 45,
+		"location_border_thickness": 5,
+		"img": "maps/nurvus.png"
+	},
+	{
+		"name": "passageway",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "maps/passageway.png"
+	},
+	{
+		"name": "piata",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "maps/piata.png"
+	},
+	{
+		"name": "plate",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/plate.png"
+	},
+	{
+		"name": "rappy",
+		"location_size": 35,
+		"location_border_thickness": 5,
+		"img": "maps/rappy.png"
+	},
+	{
+		"name": "silence",
+		"location_size": 20,
+		"location_border_thickness": 5,
+		"img": "maps/silence.png"
+	},
+	{
+		"name": "soldiers",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/soldiers.png"
+	},
+	{
+		"name": "strength",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/strength.png"
+	},
+	{
+		"name": "tonoe",
+		"location_size": 35,
+		"location_border_thickness": 5,
+		"img": "maps/tonoe.png"
+	},
+	{
+		"name": "vahal",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/vahal.png"
+	},
+	{
+		"name": "valley",
+		"location_size": 35,
+		"location_border_thickness": 5,
+		"img": "maps/valley.png"
+	},
+	{
+		"name": "weapon",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/weapon.png"
+	},
+	{
+		"name": "wreckage",
+		"location_size": 40,
+		"location_border_thickness": 5,
+		"img": "maps/wreckage.png"
+	},
+	{
+		"name": "theedge",
+		"location_size": 30,
+		"location_border_thickness": 5,
+		"img": "maps/theedge.png"
+	}
+
+]

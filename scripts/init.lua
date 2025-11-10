@@ -1,0 +1,5 @@
+Tracker:AddItems("items/items.json")
+Tracker:AddMaps("maps/maps.json")
+ScriptHost:LoadScript("scripts/logic.lua")
+Tracker:AddLayouts("layout/tracker.json")
+Tracker:AddLocations("locations/overworld.json")
