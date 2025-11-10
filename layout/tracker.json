@@ -1,0 +1,598 @@
+{
+  "shared_item_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "-4,-11",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "10,16",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_size": 55,
+            "h_alignment": "bottom",
+            "item_margin": "2,1.5",
+            "rows": [
+              ["Foil", "Digger", "Prism", "Elsy", "Wand"],
+				      ["Frademantl", "Alsh", "Torch", "Sapphire"],
+				      ["machinekey", "V_key", "P_key", "amber"],
+				      ["aring", "mring", "dring", "pring", "rring"],
+				      ["chaos", "ringhunt", "retrance", "objective"]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "shared_boss_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "-6,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "15,13",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_size": 115,
+            "h_alignment": "left",
+            "item_margin": "2,0",
+            "item_height": -1,
+            "rows": [
+              ["Falz", "devars", "df1"],
+              ["df2", "df3", "kingrappy"],
+              ["lasheic", "refaze", "salews"],
+              ["xeathoul", "zio"],
+              ["alys", "bloodsaber", "chaosbringer"],
+              ["chaossorcerer", "culabellr", "darkmarauder"],
+              ["darkrider", "delmlars", "desertleech"],
+              ["dominator", "fanbite", "fractooze"],
+              ["frostsaber", "gilefarg", "grasshound"],
+              ["greneris", "gylaguiah", "illusionist"],
+              ["imagiomage", "juza", "lefawgan"],
+              ["leviathan", "lifedeleter", "phantom"],
+              ["sandworm", "servant", "skytiara"],
+              ["snowslug", "spector", "twinarms"]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "shared_location_grid": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "background": "images/border.png",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "2,61",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_size": 150,
+            "h_alignment": "left",
+            "item_margin": "5,0",
+            "item_height": -1,
+            "rows": [
+              ["acguard", "acruler", "anger"],
+              ["bioplant", "climateboss", "courage"],
+              ["esper", "garbage", "hangar"],
+              ["kuran", "ladea", "mile"],
+              ["zelan", "molcum", "monsen"],
+              ["mystvale", "nurvus", "piata"],
+              ["plate", "rappycave","reshel"],
+              ["soldiers", "strength", "vahal"],
+              ["weapon", "wreckage", "ziosfort"]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tracker_capture_item": {
+    "type": "container",
+    "content": {
+      "type": "itemgrid",
+      "h_alignment": "center",
+      "item_margin": "0,0",
+      "rows": [
+        ["Foil", "Digger", "Prism"],
+        ["Elsy", "Wand", "Frademantl"],
+        ["Alsh", "Torch", "Sapphire"],
+        ["machinekey", "V_key", "P_key"],
+        ["aring", "mring", "dring"],
+        ["pring", "rring"],
+        ["objective", "amber"]
+      ]
+    }
+  },
+  "tracker_default": {
+    "type": "container",
+    "background": "#101010",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "array",
+          "orientation": "horizontal",
+          "dock": "bottom",
+          "content": [
+            {
+              "type": "group",
+              "margin": "-10,0,0,-85",
+              "header": "Items",
+              "content": {
+                "type": "container",
+                "content": [
+                  {
+                    "type": "image",
+                    "image": "images/border1.png",
+                    "width": 310,
+                    "height": 300,
+                    "margin": "0,-80,0,0"
+                  },
+                  {
+                    "type": "layout",
+                    "key": "shared_item_grid"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "margin": "-10,0,0,-85",
+              "header": "Bosses",
+              "content": {
+                "type": "container",
+                "content": [
+                  {
+                    "type": "image",
+                    "image": "images/border2.png",
+                    "width": 380,
+                    "height": 380,
+                    "margin": "0,-80,0,0"
+                  },
+                  {
+                    "type": "layout",
+                    "key": "shared_boss_grid"
+                  }
+                ]
+              }
+            },
+            {
+              "type": "container",
+              "width": 530,
+              "content": [
+                {
+                  "type": "group",
+                  "margin": "-0,0,0,-85",
+                  "header": "Locations",
+                  "content": {
+                    "type": "container",
+                    "content": [
+                      {
+                        "type": "image",
+                        "image": "images/border3.png",
+                        "width": 506,
+                        "height": 420,
+                        "margin": "-30,-30,0,0"
+                      },
+                      {
+                        "type": "layout",
+                        "key": "shared_location_grid"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "All Planets",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "All Planets",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["map"]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Motavia",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Motavia",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["motavia"]
+                    }
+                  },
+                  {
+                    "title": "Aiedo",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["aiedo"]
+                    }
+                  },
+                  {
+                    "title": "Birth Valley",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["birthvalley"]
+                    }
+                  },
+                  {
+                    "title": "Bio Plant",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["bioplant"]
+                    }
+                  },
+                  {
+                    "title": "Wreckage",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["wreckage"]
+                    }
+                  },
+                  {
+                    "title": "Passageway",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["passageway"]
+                    }
+                  },
+                  {
+                    "title": "Kadary",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["kadary"]
+                    }
+                  },
+                  {
+                    "title": "Zio's Fort",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["ziofort"]
+                    }
+                  },
+                  {
+                    "title": "Nurvus",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["nurvus"]
+                    }
+                  },
+                  {
+                    "title": "Mile Ranch",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["mile"]
+                    }
+                  },
+                  {
+                    "title": "Piata Basement",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["piata"]
+                    }
+                  },
+                  {
+                    "title": "Molcum",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["molcum"]
+                    }
+                  },
+                  {
+                    "title": "Valley Maze",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["valley"]
+                    }
+                  },
+                  {
+                    "title": "Tonoe Cellar",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["tonoe"]
+                    }
+                  },
+                  {
+                    "title": "Soldiers Temple",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["soldiers"]
+                    }
+                  },
+                  {
+                    "title": "Vahal Fort",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["vahal"]
+                    }
+                  },
+                  {
+                    "title": "Monsen Fissure",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["monsen"]
+                    }
+                  },
+                  {
+                    "title": "Plate System",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["plate"]
+                    }
+                  },
+                  {
+                    "title": "ladea Tower",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["ladea"]
+                    }
+                  },
+                  {
+                    "title": "Rappy Cave",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["rappy"]
+                    }
+                  },
+                  {
+                    "title": "The Edge",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["theedge"]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Desolis",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Desolis",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["desolis"]
+                    }
+                  },
+                  {
+                    "title": "Hanger",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["hanger"]
+                    }
+                  },
+                  {
+                    "title": "Climate Center",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["climate"]
+                    }
+                  },
+                  {
+                    "title": "Myst Vale",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["mystvale"]
+                    }
+                  },
+                  {
+                    "title": "Garbage Tower",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["garuberk"]
+                    }
+                  },
+                  {
+                    "title": "Esper Mansion",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["esper"]
+                    }
+                  },
+                  {
+                    "title": "Gumbious Temple",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["gumbious"]
+                    }
+                  },
+                  {
+                    "title": "Weapons Plant",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["weapon"]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Rykros",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Rykros",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["rykros"]
+                    }
+                  },
+                  {
+                    "title": "Anger Tower",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["angertower"]
+                    }
+                  },
+                  {
+                    "title": "Courage Tower",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["courage"]
+                    }
+                  },
+                  {
+                    "title": "Strength Tower",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["strength"]
+                    }
+                  },
+                  {
+                    "title": "Silence Tower",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["silence"]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Space",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Air Castle Proper",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["acproper"]
+                    }
+                  },
+                  {
+                    "title": "Air Castle Basement",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["acbasement"]
+                    }
+                  },
+                  {
+                    "title": "Zelan",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["zelan"]
+                    }
+                  },
+                  {
+                    "title": "Kuran",
+                    "content": {
+                      "type": "map",
+                      "v_alignment": "center",
+                      "h_alignment": "center",
+                      "maps": ["kuran"]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

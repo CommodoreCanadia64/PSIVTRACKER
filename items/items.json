@@ -1,0 +1,546 @@
+[
+	{
+	  "name": "AeroPrism",
+	  "type": "Toggle",
+	  "img": "images/aeroprism.png",
+	  "codes": "Prism"
+	},
+	{
+	  "name": "Alshline",
+	  "type": "Toggle",
+	  "img": "images/alshline.png",
+	  "codes": "Alsh"
+	},
+	{
+	  "name": "EclipseTorch",
+	  "type": "Toggle",
+	  "img": "images/torch.png",
+	  "codes": "Torch"
+	},
+	{
+	  "name": "Elsydeon",
+	  "type": "Toggle",
+	  "img": "images/elsydeon.png",
+	  "codes": "Elsy"
+	},
+	{
+	  "name": "Hydrofoil",
+	  "type": "Toggle",
+	  "img": "images/hydrofoil.png",
+	  "codes": "Foil"
+	},
+	{
+	  "name": "Icedigger",
+	  "type": "Toggle",
+	  "img": "images/icedigger.png",
+	  "codes": "Digger"
+	},
+	{
+	  "name": "Sapphire",
+	  "type": "Toggle",
+	  "img": "images/sapphire.png",
+	  "codes": "Sapphire"
+	},
+	{
+	  "name": "Frademantl",
+	  "type": "Toggle",
+	  "img": "images/frademantl.png",
+	  "codes": "Frademantl"
+	},
+	{
+	  "name": "Psychowand",
+	  "type": "Toggle",
+	  "img": "images/psycowand.png",
+	  "codes": "Wand"
+	},
+	{
+	  "name": "Plate_Key",
+	  "type": "Toggle",
+	  "img": "images/platekey.png",
+	  "codes": "P_key,plat"
+	},
+	{
+	  "name": "Vahalkey",
+	  "type": "Toggle",
+	  "img": "images/vahalkey.png",
+	  "codes": "V_key"
+	},
+	{
+		"name": "Algo Ring",
+		"type": "Toggle",
+		"img": "images/aring.png",
+		"codes": "aring"
+	  },
+	  {
+		"name": "Mota Ring",
+		"type": "Toggle",
+		"img": "images/mring.png",
+		"codes": "mring"
+	  },
+	  {
+		"name": "Dezo Ring",
+		"type": "Toggle",
+		"img": "images/dring.png",
+		"codes": "dring"
+	  },
+	  {
+		"name": "Palm Ring",
+		"type": "Toggle",
+		"img": "images/pring.png",
+		"codes": "pring"
+	  },
+	  {
+		"name": "Rykr Ring",
+		"type": "Toggle",
+		"img": "images/rring.png",
+		"codes": "rring"
+	  },
+	  {
+		"name": "chaos mode",
+		"type": "Toggle",
+		"img": "images/chaosmode.png",
+		"codes": "chaos, objectives"
+	  },
+	  {
+		"name": "ringhunt",
+		"type": "Toggle",
+		"img": "images/ringhunt.png",
+		"codes": "ringhunt"
+	  },
+	  {
+		"name": "objective",
+		"type": "consumable",
+		"img": "images/objective.png",
+		"codes": "objective",
+		"max_quantity": 8,
+		"initial_quantity": 0
+	  },
+	  {
+		"name": "ambereye",
+		"type": "consumable",
+		"img": "images/ambereye.png",
+		"codes": "amber",
+		"max_quantity": 5,
+		"initial_quantity": 0
+	  },
+	  {
+		"name": "darkfalz",
+		"type": "Toggle",
+		"img": "images/bosses/darkfalz.png",
+		"codes": "falz, objectives"
+	  },
+	  {
+		"name": "darkforce1",
+		"type": "Toggle",
+		"img": "images/bosses/df1.png",
+		"codes": "df1, objectives"
+	  },
+	  {
+	    "name": "darkforce2",
+	    "type": "Toggle",
+	    "img": "images/bosses/df2.png",
+	    "codes": "df2, objectives"
+	  },
+	  {
+		"name": "darkforce3",
+		"type": "Toggle",
+		"img": "images/bosses/df3.png",
+		"codes": "df3, objectives"
+	  },
+	  {
+		"name": "De-Vars",
+		"type": "Toggle",
+		"img": "images/bosses/devars.png",
+		"codes": "devars, objectives"
+	  },
+	  {
+		"name": "kingrappy",
+		"type": "Toggle",
+		"img": "images/bosses/kingrappy.png",
+		"codes": "kingrappy, objectives"
+	  },
+	  {
+		"name": "lasheic",
+		"type": "Toggle",
+		"img": "images/bosses/lasheic.png",
+		"codes": "lasheic, objectives"
+	  },
+	  {
+		"name": "refaze",
+		"type": "Toggle",
+		"img": "images/bosses/refaze.png",
+		"codes": "refaze, objectives"
+	  },
+	  {
+		"name": "salews",
+		"type": "Toggle",
+		"img": "images/bosses/salews.png",
+		"codes": "salews, objectives"
+	  },
+	  {
+		"name": "xeathoul",
+		"type": "Toggle",
+		"img": "images/bosses/xeathoul.png",
+		"codes": "xeathoul, objectives"
+	  },
+	  {
+		"name": "zio",
+		"type": "Toggle",
+		"img": "images/bosses/zio.png",
+		"codes": "zio, objectives"
+	  },
+	  {
+		"name": "alys",
+		"type": "Toggle",
+		"img": "images/bosses/alys.png",
+		"codes": "alys, objectives"
+	  },
+	  {
+		"name": "bloodsaber",
+		"type": "Toggle",
+		"img": "images/bosses/bloodsaber.png",
+		"codes": "bloodsaber, objectives"
+	  },
+	  {
+		"name": "chaosbringer",
+		"type": "Toggle",
+		"img": "images/bosses/chaosbringer.png",
+		"codes": "chaosbringer, objectives"
+	  },
+	  {
+		"name": "chaossorcerer",
+		"type": "Toggle",
+		"img": "images/bosses/chaossorcerer.png",
+		"codes": "chaossorcerer, objectives"
+	  },
+	  {
+		"name": "culabellr",
+		"type": "Toggle",
+		"img": "images/bosses/culabellr.png",
+		"codes": "culabellr, objectives"
+	  },
+	  {
+		"name": "darkmarauder",
+		"type": "Toggle",
+		"img": "images/bosses/darkmarauder.png",
+		"codes": "darkmarauder, objectives"
+	  },
+	  {
+		"name": "delmlars",
+		"type": "Toggle",
+		"img": "images/bosses/delmlars.png",
+		"codes": "delmlars, objectives"
+	  },
+	  {
+		"name": "darkrider",
+		"type": "Toggle",
+		"img": "images/bosses/darkrider.png",
+		"codes": "darkrider, objectives"
+	  },
+	  {
+		"name": "desertleech",
+		"type": "Toggle",
+		"img": "images/bosses/desertleech.png",
+		"codes": "desertleech, objectives"
+	  },
+	  {
+		"name": "dominator",
+		"type": "Toggle",
+		"img": "images/bosses/dominator.png",
+		"codes": "dominator, objectives"
+	  },
+	  {
+		"name": "fanbite",
+		"type": "Toggle",
+		"img": "images/bosses/fanbite.png",
+		"codes": "fanbite, objectives"
+	  },
+	  {
+		"name": "fractooze",
+		"type": "Toggle",
+		"img": "images/bosses/fractooze.png",
+		"codes": "fractooze, objectives"
+	  },
+	  {
+		"name": "frostsaber",
+		"type": "Toggle",
+		"img": "images/bosses/frostsaber.png",
+		"codes": "frostsaber, objectives"
+	  },
+	  {
+		"name": "gilefarg",
+		"type": "Toggle",
+		"img": "images/bosses/gilefarg.png",
+		"codes": "gilefarg, objectives"
+	  },
+	  {
+		"name": "grasshound",
+		"type": "Toggle",
+		"img": "images/bosses/grasshound.png",
+		"codes": "grasshound, objectives"
+	  },
+	  {
+		"name": "greneris",
+		"type": "Toggle",
+		"img": "images/bosses/greneris.png",
+		"codes": "greneris, objectives"
+	  },
+	  {
+		"name": "gylaguiah",
+		"type": "Toggle",
+		"img": "images/bosses/gylaguiah.png",
+		"codes": "gylaguiah,objectives"
+	  },
+	  {
+		"name": "illusionist",
+		"type": "Toggle",
+		"img": "images/bosses/illusionist.png",
+		"codes": "illusionist, objectives"
+	  },
+	  {
+		"name": "imagiomage",
+		"type": "Toggle",
+		"img": "images/bosses/imagiomage.png",
+		"codes": "imagiomage, objectives"
+	  },
+	  {
+		"name": "juza",
+		"type": "Toggle",
+		"img": "images/bosses/juza.png",
+		"codes": "juza, objectives"
+	  },
+	  {
+		"name": "lefawgan",
+		"type": "Toggle",
+		"img": "images/bosses/lefawgan.png",
+		"codes": "lefawgan, objectives"
+	  },
+	  {
+		"name": "leviathan",
+		"type": "Toggle",
+		"img": "images/bosses/leviathan.png",
+		"codes": "leviathan, objectives"
+	  },
+	  {
+		"name": "lifedeleter",
+		"type": "Toggle",
+		"img": "images/bosses/lifedeleter.png",
+		"codes": "lifedeleter, objectives"
+	  },
+	  {
+		"name": "phantom",
+		"type": "Toggle",
+		"img": "images/bosses/phantom.png",
+		"codes": "phantom, objectives"
+	  },
+	  {
+		"name": "sandworm",
+		"type": "Toggle",
+		"img": "images/bosses/sandworm.png",
+		"codes": "sandworm, objectives"
+	  },
+	  {
+		"name": "servant",
+		"type": "Toggle",
+		"img": "images/bosses/servant.png",
+		"codes": "servant, objectives"
+	  },
+	  {
+		"name": "skytiara",
+		"type": "Toggle",
+		"img": "images/bosses/skytiara.png",
+		"codes": "skytiara, objectives"
+	  },
+	  {
+		"name": "snowslug",
+		"type": "Toggle",
+		"img": "images/bosses/snowslug.png",
+		"codes": "snowslug, objectives"
+	  },
+	  {
+		"name": "spector",
+		"type": "Toggle",
+		"img": "images/bosses/spector.png",
+		"codes": "spector, objectives"
+	  },
+	  {
+		"name": "twinarms",
+		"type": "Toggle",
+		"img": "images/bosses/twinarms.png",
+		"codes": "twinarms, objectives"
+	  },
+	  {
+		"name": "acguard",
+		"type": "Toggle",
+		"img": "images/locations/acguard.png",
+		"codes": "acguard, objectives"
+	  },
+	  {
+		"name": "acruler",
+		"type": "Toggle",
+		"img": "images/locations/acruler.png",
+		"codes": "acruler, objectives"
+	  },
+	  {
+		"name": "anger",
+		"type": "Toggle",
+		"img": "images/locations/anger.png",
+		"codes": "anger, objectives"
+	  },
+	  {
+		"name": "garbage",
+		"type": "Toggle",
+		"img": "images/locations/garbage.png",
+		"codes": "garbage, objectives"
+	  },
+	  {
+		"name": "bioplant",
+		"type": "Toggle",
+		"img": "images/locations/bioplant.png",
+		"codes": "bioplant, objectives"
+	  },
+	  {
+		"name": "climateboss",
+		"type": "Toggle",
+		"img": "images/locations/climateboss.png",
+		"codes": "climateboss, objectives"
+	  },
+	  {
+		"name": "courage",
+		"type": "Toggle",
+		"img": "images/locations/courage.png",
+		"codes": "courage, objectives"
+	  },
+	  {
+		"name": "esper",
+		"type": "Toggle",
+		"img": "images/locations/esper.png",
+		"codes": "esper, objectives"
+	  },
+	  {
+		"name": "hangar",
+		"type": "Toggle",
+		"img": "images/locations/hangar.png",
+		"codes": "hangar, objectives"
+	  },
+	  {
+		"name": "kuran",
+		"type": "Toggle",
+		"img": "images/locations/kuran.png",
+		"codes": "kuran, objectives"
+	  },
+	  {
+		"name": "ladea",
+		"type": "Toggle",
+		"img": "images/locations/ladea.png",
+		"codes": "ladea, objectives"
+	  },
+	  {
+		"name": "Mile Ranch",
+		"type": "Toggle",
+		"img": "images/locations/mile.png",
+		"codes": "mile, objectives"
+	  },
+	  {
+		"name": "molcum",
+		"type": "Toggle",
+		"img": "images/locations/molcum.png",
+		"codes": "molcum, objectives"
+	  },
+	  {
+		"name": "monsen",
+		"type": "Toggle",
+		"img": "images/locations/monsen.png",
+		"codes": "monsen, objectives"
+	  },
+	  {
+		"name": "mystvale",
+		"type": "Toggle",
+		"img": "images/locations/mystvale.png",
+		"codes": "mystvale, objectives"
+	  },
+	  {
+		"name": "nurvus",
+		"type": "Toggle",
+		"img": "images/locations/nurvus.png",
+		"codes": "nurvus, objectives"
+	  },
+	  {
+		"name": "piata",
+		"type": "Toggle",
+		"img": "images/locations/piata.png",
+		"codes": "piata, objectives"
+	  },
+	  {
+		"name": "plate",
+		"type": "Toggle",
+		"img": "images/locations/plate.png",
+		"codes": "plate, objectives"
+	  },
+	  {
+		"name": "rappycave",
+		"type": "Toggle",
+		"img": "images/locations/rappycave.png",
+		"codes": "rappycave, objectives"
+	  },
+	  {
+		"name": "soldiers",
+		"type": "Toggle",
+		"img": "images/locations/soldiers.png",
+		"codes": "soldiers, objectives"
+	  },
+	  {
+		"name": "strength",
+		"type": "Toggle",
+		"img": "images/locations/strength.png",
+		"codes": "strength, objectives"
+	  },
+	  {
+		"name": "vahal",
+		"type": "Toggle",
+		"img": "images/locations/vahal.png",
+		"codes": "vahal, objectives"
+	  },
+	  {
+		"name": "wreckage",
+		"type": "Toggle",
+		"img": "images/locations/wreckage.png",
+		"codes": "wreckage, objectives"
+	  },
+	  {
+		"name": "zelan",
+		"type": "Toggle",
+		"img": "images/locations/zelan.png",
+		"codes": "zelan, objectives"
+	  },
+	  {
+		"name": "ziosfort",
+		"type": "Toggle",
+		"img": "images/locations/ziosfort.png",
+		"codes": "ziosfort, objectives"
+	  },
+	  {
+		"name": "retrance",
+		"type": "Toggle",
+		"img": "images/retrance.png",
+		"codes": "retrance"
+	  },
+	  {
+	    "name": "machinekey",
+	    "type": "Toggle",
+	    "img": "images/machinekey.png",
+	    "codes": "machinekey"
+	  },
+	  {
+		"name": "weapon",
+		"type": "Toggle",
+		"img": "images/locations/weapon.png",
+		"codes": "weapon, objectives"
+	  },
+	  {
+		"name": "reshel",
+		"type": "Toggle",
+		"img": "images/locations/reshel.png",
+		"codes": "reshel, objectives"
+	  }
+  ]
