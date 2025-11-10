@@ -1,0 +1,1454 @@
+[
+    {
+        "name": "map",
+        "children": [
+            {
+                "name": "Piata", 
+                "map_locations": [
+                        {
+                            "x": 132,
+                            "y": 841,
+                            "map": "map"
+                        },
+                        {
+                            "x": 670,
+                            "y": 2043,
+                            "map": "motavia"
+                        },
+                        {
+                            "x": 702,
+                            "y": 125,
+                            "map": "piata"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Piata Basement 3 chests",
+                        "clear_as_group": false,
+                        "item_count": 3
+                       
+                    },
+                    {
+                        "name": "KEY - Minor boss lvl 1+",
+                        "chest_unopened_img": "images/igg.png",
+                        "chest_opened_img": "images/iggbw.png",
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Birth Valley", 
+                "map_locations": [
+                    {
+                        "x": 288,
+                        "y": 652,
+                        "map": "map"
+                    },
+                    {
+                        "x": 1520,
+                        "y": 1103,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 515,
+                        "y": 165,
+                        "map": "birthvalley"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "3 chests first floor (KEY - Second floor chest)",
+                        "clear_as_group": false,
+                        "access_rules": ["Alsh"],
+                        "item_count": 3
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Bio Plant", 
+                "map_locations": [
+                    {
+                        "x": 298,
+                        "y": 622,
+                        "map": "map"
+                    },
+                    {
+                        "x": 1570,
+                        "y": 975,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 595,
+                        "y": 35,
+                        "map": "bioplant"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "KEY - Talk to seed in bio lab",
+                        "chest_unopened_img": "images/console.png",
+                        "chest_opened_img": "images/consolebw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["Alsh"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "4 Chests",
+                        "clear_as_group": false,
+                        "access_rules": ["Alsh"],
+                        "item_count": 4
+                       
+                    }
+                ]
+            },
+            {
+                "name": "The Edge", 
+                "map_locations": [
+                    {
+                        "x": 161,
+                        "y": 750,
+                        "map": "map"
+                    },
+                    {
+                        "x": 840,
+                        "y": 1603,
+                        "map": "motavia"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Profound Darkness",
+                        "chest_unopened_img": "images/PD3.png",
+                        "chest_opened_img": "images/PD3bw.png",
+                        "access_rules": ["$canAccessPD","objective:8"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Zio's Fort", 
+                "map_locations": [
+                    {
+                        "x": 155,
+                        "y": 691,
+                        "map": "map"
+                    },
+                    {
+                        "x": 820,
+                        "y": 1290,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 1105,
+                        "y": 680,
+                        "map": "ziofort"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "6 Chests",
+                        "clear_as_group": false,
+                        "item_count": 6
+                       
+                    },
+                    {
+                        "name": "Lvl 11+ Minor Boss (KEY - Save character)",
+                        "chest_unopened_img": "images/igg.png",
+                        "chest_opened_img": "images/iggbw.png",
+                        "clear_as_group": false,
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Nurvus", 
+                "map_locations": [
+                    {
+                        "x": 175,
+                        "y": 691,
+                        "map": "map"
+                    },
+                    {
+                        "x": 890,
+                        "y": 1290,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 80,
+                        "y": 860,
+                        "map": "nurvus"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Nurvus 5 chests",
+                        "clear_as_group": false,
+                        "access_rules": ["Wand"],
+                        "item_count": 5
+                       
+                    },
+                    {
+                        "name": "KEY - Nurvus lvl 20+ Major Boss",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["Wand"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Mile Ranch", 
+                "map_locations": [
+                    {
+                        "x": 174,
+                        "y": 714,
+                        "map": "map"
+                    },
+                    {
+                        "x": 920,
+                        "y": 1380,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 60,
+                        "y": 275,
+                        "map": "mile"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Sandworm pit lvl 11+ Minor Boss (KEY - Talk to ranch owner after)",
+                        "chest_unopened_img": "images/igg.png",
+                        "chest_opened_img": "images/iggbw.png",
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Kadary", 
+                "map_locations": [
+                    {
+                        "x": 140,
+                        "y": 650,
+                        "map": "map"
+                    },
+                    {
+                        "x": 720,
+                        "y": 1103,
+                        "map": "motavia"
+                    }
+                    ,
+                    {
+                        "x": 260,
+                        "y": 69,
+                        "map": "kadary"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "KEY- Kadary outskirts right side house",
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Passageway", 
+                "map_locations": [
+                    {
+                        "x": 93,
+                        "y": 623,
+                        "map": "map"
+                    },
+                    {
+                        "x": 480,
+                        "y": 950,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 530,
+                        "y": 620,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 290,
+                        "y": 360,
+                        "map": "passageway"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "KEY - South Chest",
+                        "clear_as_group": false,
+                        "item_count": 2
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Aiedo", 
+                "map_locations": [
+                    {
+                        "x": 103,
+                        "y": 575,
+                        "map": "map"
+                    },
+                    {
+                        "x": 515,
+                        "y": 730,
+                        "map": "motavia"
+                    },
+                    {
+                       "x": 160,
+                       "y": 65,
+                        "map": "aiedo"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "KEY - Left chest Behind Guild",
+                        "clear_as_group": false,
+                        "item_count": 2
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Wreckage", 
+                "map_locations": [
+                    {
+                        "x": 216,
+                        "y": 500,
+                        "map": "map"
+                    },
+                    {
+                        "x": 1135,
+                        "y": 360,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 420,
+                        "y": 410,
+                        "map": "wreckage"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "5 Chests",
+                        "clear_as_group": false,
+                        "item_count": 5
+                       
+                    },
+                    {
+                        "name": "KEY - Activate console",
+                        "chest_unopened_img": "images/console.png",
+                        "chest_opened_img": "images/consolebw.png",
+                        "clear_as_group": false,
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Vahal Fort", 
+                "map_locations": [
+                    {
+                        "x": 476,
+                        "y": 514,
+                        "map": "map"
+                    },
+                    {
+                        "x": 2540,
+                        "y": 430,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 863,
+                        "y": 570,
+                        "map": "vahal"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "5 Chests",
+                        "clear_as_group": false,
+                        "access_rules": ["V_key,foil"],
+                        "item_count": 5
+                       
+                    },
+                    {
+                        "name": "KEY - Minor Boss lvl 20+",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["V_key,foil"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Molcum", 
+                "map_locations": [
+                    {
+                        "x": 239,
+                        "y": 898,
+                        "map": "map"
+                    },
+                    {
+                        "x": 1265,
+                        "y": 2330,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 160,
+                        "y": 45,
+                        "map": "molcum"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "KEY - Talk to Character",
+                        "chest_unopened_img": "images/person.png",
+                        "chest_opened_img": "images/personbw.png",
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Soldiers Temple", 
+                "map_locations": [
+                    {
+                        "x": 344,
+                        "y": 885,
+                        "map": "map"
+                    },
+                    {
+                        "x": 1845,
+                        "y": 2240,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 690,
+                        "y": 840,
+                        "map": "soldiers"
+                    },
+                    {
+                        "x": 620,
+                        "y": 1010,
+                        "map": "soldiers"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "6 Chests (KEY - Chest in temple)",
+                        "clear_as_group": false,
+                        "access_rules": ["foil"],
+                        "item_count": 6
+                       
+                    },
+                    {
+                        "name": "KEY - Major Boss lvl 35+",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["foil"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Valley Maze",
+                "access_rules": ["Sapphire"], 
+                "map_locations": [
+                    {
+                        "x": 370,
+                        "y": 770,
+                        "map": "map"
+                    },
+                    {
+                        "x": 2000,
+                        "y": 1710,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 2335,
+                        "y": 1280,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 230,
+                        "y": 70,
+                        "map": "valley"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "2 Chests (KEY - Chest closest to tonoe)",
+                        "item_count": 2
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Plate System", 
+                "map_locations": [
+                    {
+                        "x": 569,
+                        "y": 653,
+                        "map": "map"
+                    },
+                    {
+                        "x": 3095,
+                        "y": 1100,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 130,
+                        "y": 775,
+                        "map": "plate"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "8 Chests",
+                        "clear_as_group": false,
+                        "access_rules": ["plat,foil","Digger,plat"],
+                        "item_count": 8
+                       
+                    },
+                    {
+                        "name": "KEY - Activate Console",
+                        "chest_unopened_img": "images/console.png",
+                        "chest_opened_img": "images/consolebw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["plat,foil","Digger,plat"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Monsen", 
+                "map_locations": [
+                    {
+                        "x": 523,
+                        "y": 718,
+                        "map": "map"
+                    },
+                    {
+                        "x": 2835,
+                        "y": 1430,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 655,
+                        "y": 245,
+                        "map": "monsen"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "KEY - Monsen Fissure lvl 15+ Minor Boss",
+                        "chest_unopened_img": "images/igg.png",
+                        "chest_opened_img": "images/iggbw.png",
+                        "access_rules": ["foil","Digger"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Tonoe",
+                "access_rules": ["Sapphire"], 
+                "map_locations": [
+                    {
+                        "x": 435,
+                        "y": 667,
+                        "map": "map"
+                    },
+                    {
+                        "x": 2355,
+                        "y": 1200,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 865,
+                        "y": 600,
+                        "map": "tonoe"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "8 Chests in the Tonoe Cellar (KEY - Left chest in bottom of cellar",
+                        "clear_as_group": false,
+                        "item_count": 8
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Ladea Tower", 
+                "map_locations": [
+                    {
+                        "x": 598,
+                        "y": 838,
+                        "map": "map"
+                    },
+                    {
+                        "x": 3255,
+                        "y": 2030,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 490,
+                        "y": 1050,
+                        "map": "ladea"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "6 Chests",
+                        "clear_as_group": false,
+                        "access_rules": ["foil","Digger"],
+                        "item_count": 6
+                       
+                    },
+                    {
+                        "name": "Major Boss lvl 18+ (KEY - Chest after boss",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["foil","Digger"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Rappy Cave", 
+                "map_locations": [
+                    {
+                        "x": 633,
+                        "y": 929,
+                        "map": "map"
+                    },
+                    {
+                        "x": 3445,
+                        "y": 2480,
+                        "map": "motavia"
+                    },
+                    {
+                        "x": 195,
+                        "y": 50,
+                        "map": "rappy"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "KEY - Boss lvl 25+ Major Boss",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "access_rules": ["foil"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Anger Tower", 
+                "map_locations": [
+                    {
+                        "x": 781,
+                        "y": 992,
+                        "map": "map"
+                    },
+                    {
+                        "x": 335,
+                        "y": 1190,
+                        "map": "rykros"
+                    },
+                    {
+                        "x": 130,
+                        "y": 520,
+                        "map": "angertower"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "2 Chests",
+                        "clear_as_group": false,
+                        "access_rules": ["Elsy"],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "Minor Boss lvl 30+",
+                        "chest_unopened_img": "images/igg.png",
+                        "chest_opened_img": "images/iggbw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["Elsy"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Silence Temple", 
+                "map_locations": [
+                    {
+                        "x": 991,
+                        "y": 729,
+                        "map": "map"
+                    },
+                    {
+                        "x": 815,
+                        "y": 680,
+                        "map": "rykros"
+                    },
+                    {
+                        "x": 155,
+                        "y": 50,
+                        "map": "silence"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "4 Chests (KEY - Left rear chest)",
+                        "clear_as_group": false,
+                        "item_count": 4  
+                    }
+                ]
+            },
+            {
+                "name": "Courage Tower", 
+                "map_locations": [
+                    {
+                        "x": 1217,
+                        "y": 990,
+                        "map": "map"
+                    },
+                    {
+                        "x": 1325,
+                        "y": 1190,
+                        "map": "rykros"
+                    },
+                    {
+                        "x": 135,
+                        "y": 895,
+                        "map": "courage"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "4 Chests",
+                        "clear_as_group": false,
+                        "item_count": 4 
+                    },
+                    {
+                        "name": "Major Boss lvl 32+",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "clear_as_group": false,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "2 Chests after boss kill (KEY - Right chest",
+                        "clear_as_group": false,
+                        "item_count": 2
+                    }
+                ]
+            },
+            {
+                "name": "Strength Tower", 
+                "map_locations": [
+                    {
+                        "x": 765,
+                        "y": 464,
+                        "map": "map"
+                    },
+                    {
+                        "x": 305,
+                        "y": 160,
+                        "map": "rykros"
+                    },
+                    {
+                        "x": 170,
+                        "y": 845,
+                        "map": "strength"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "5 Chests",
+                        "clear_as_group": false,
+                        "item_count": 5
+                    },
+                    {
+                        "name": "Major Boss lvl 30+",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "clear_as_group": false,
+                        "item_count": 1
+                    },
+                    {
+                        "name": "3 Chests after kill (KEY - Right chest",
+                        "clear_as_group": false,
+                        "item_count": 3
+                    }
+                ]
+            },
+            {
+                "name": "Machine Center/Zelan", 
+                "map_locations": [
+                        {
+                            "x": 1265,
+                            "y": 355,
+                            "map": "map"
+                        },
+                        {
+                            "x": 335,
+                            "y": 965,
+                            "map": "map"
+                        },
+                        {
+                            "x": 1780,
+                            "y": 2660,
+                            "map": "motavia"
+                        },
+                        {
+                            "x": 335,
+                            "y": 50,
+                            "map": "zelan"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "6 Chests",
+                        "clear_as_group": false,
+                        "access_rules": ["machinekey"],
+                        "item_count": 6
+                    },
+                    {
+                        "name": "KEY - Talk to Character",
+                        "chest_unopened_img": "images/person.png",
+                        "chest_opened_img": "images/personbw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["machinekey"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Kuran", 
+                "map_locations": [
+                        {
+                            "x": 1265,
+                            "y": 235,
+                            "map": "map"
+                        },
+                        {
+                            "x": 588,
+                            "y": 750,
+                            "map": "kuran"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "6 Chests",
+                        "clear_as_group": false,
+                        "item_count": 6
+                    },
+                    {
+                        "name": "KEY - Major Boss lvl 25+",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "clear_as_group": false,
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Air Castle Basement", 
+                "map_locations": [
+                        {
+                            "x": 1265,
+                            "y": 145,
+                            "map": "map"
+                        },
+                        {
+                            "x": 590,
+                            "y": 50,
+                            "map": "acbasement"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "3 Chests (KEY - Boss room chest",
+                        "access_rules": ["Prism"],
+                        "item_count": 3
+                    },
+                    {
+                        "name": "KEY - Ruler-Major Boss lvl 30+",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "access_rules": ["Prism"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Air Castle Proper", 
+                "map_locations": [
+                        {
+                            "x": 1265,
+                            "y": 105,
+                            "map": "map"
+                        },
+                        {
+                            "x": 810,
+                            "y": 440,
+                            "map": "acproper"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "10 Chests",
+                        "clear_as_group": false,
+                        "item_count": 10
+                       
+                    },
+                    {
+                        "name": "Guard-Minor Boss lvl 25+",
+                        "chest_unopened_img": "images/igg.png",
+                        "chest_opened_img": "images/iggbw.png",
+                        "clear_as_group": false,
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Esper Mansion", 
+                "map_locations": [
+                    {
+                        "x": 1189,
+                        "y": 219,
+                        "map": "map"
+                    },
+                    {
+                        "x": 3649,
+                        "y": 900,
+                        "map": "desolis"
+                    },
+                    {
+                        "x": 1027,
+                        "y": 400,
+                        "map": "esper"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "4 Chests in mansion",
+                        "clear_as_group": false,
+                        "access_rules": ["Digger,Frademantl"],
+                        "item_count": 4 
+                    },
+                    {
+                        "name": "KEY - Sacred Sword Cave statue",
+                        "chest_unopened_img": "images/statue.png",
+                        "chest_opened_img": "images/statuebw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["Digger,Frademantl"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Garbage Tower", 
+                "map_locations": [
+                    {
+                        "x": 950,
+                        "y": 17,
+                        "map": "map"
+                    },
+                    {
+                        "x": 2929,
+                        "y": 80,
+                        "map": "desolis"
+                    },
+                    {
+                        "x": 750,
+                        "y": 1170,
+                        "map": "garuberk"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "8 Chests",
+                        "clear_as_group": false,
+                        "access_rules": ["Torch,Digger"],
+                        "item_count": 8
+                    },
+                    {
+                        "name": "KEY - Major Boss lvl 28+",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["Torch,Digger"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Climate Centre", 
+                "map_locations": [
+                    {
+                        "x": 637,
+                        "y": 55,
+                        "map": "map"
+                    },
+                    {
+                        "x": 1970,
+                        "y": 240,
+                        "map": "desolis"
+                    },
+                    {
+                        "x": 670,
+                        "y": 470,
+                        "map": "climate"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "6 Chests",
+                        "clear_as_group": false,
+                        "access_rules": ["Digger"],
+                        "item_count": 6
+                    },
+                    {
+                        "name": "KEY - Minor Boss lvl 20+",
+                        "chest_unopened_img": "images/igg.png",
+                        "chest_opened_img": "images/iggbw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["Digger"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Gumbious Temple", 
+                "map_locations": [
+                    {
+                        "x": 628,
+                        "y": 275,
+                        "map": "map"
+                    },
+                    {
+                        "x": 1950,
+                        "y": 1120,
+                        "map": "desolis"
+                    },
+                    {
+                        "x": 40,
+                        "y": 465,
+                        "map": "gumbious"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "4 Chests in the Basement (KEY - Bottom left chest",
+                        "clear_as_group": false,
+                        "access_rules": ["Digger"],
+                        "item_count": 4
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Weapon Plant", 
+                "map_locations": [
+                    {
+                        "x": 414,
+                        "y": 385,
+                        "map": "map"
+                    },
+                    {
+                        "x": 1300,
+                        "y": 1560,
+                        "map": "desolis"
+                    },
+                    {
+                        "x": 940,
+                        "y": 785,
+                        "map": "weapon"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Lvl 18+ minor boss at entrance",
+                        "chest_unopened_img": "images/rappy.png",
+                        "chest_opened_img": "images/rappybw.png",
+                        "access_rules": ["Digger"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "4 Chests (KEY - Chest, left door right side)",
+                        "clear_as_group": false,
+                        "access_rules": ["digger"],
+                        "item_count": 4
+                    }
+                ]
+            },
+            {
+                "name": "Myst Valley", 
+                "map_locations": [
+                    {
+                        "x": 152,
+                        "y": 8,
+                        "map": "map"
+                    },
+                    {
+                        "x": 490,
+                        "y": 60,
+                        "map": "desolis"
+                    },
+                    {
+                        "x": 110,
+                        "y": 55,
+                        "map": "mystvale"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "2 Chests",
+                        "clear_as_group": false,
+                        "access_rules": ["Digger"],
+                        "item_count": 2
+                    },
+                    {
+                        "name": "KEY - PET THE BIG KITTY",
+                        "chest_unopened_img": "images/myau.png",
+                        "chest_opened_img": "images/myaubw.png",
+                        "clear_as_group": false,
+                        "access_rules": ["Digger"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Tyler/Hangar", 
+                "map_locations": [
+                    {
+                        "x": 45,
+                        "y": 270,
+                        "map": "map"
+                    },
+                    {
+                        "x": 180,
+                        "y": 1110,
+                        "map": "desolis"
+                    },
+                    {
+                        "x": 500,
+                        "y": 550,
+                        "map": "hanger"
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "Inspect the grave, 2 Chests, (KEY - Exit to Landale",
+                        "clear_as_group": false,
+                        "item_count": 3
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Nalya",
+                "map_locations": [
+                      {
+                        "x": 235,
+                        "y": 520,
+                        "map": "map"
+                      },
+                      { 
+                        "x": 1235,
+                        "y": 450,
+                        "map": "motavia"
+                      }
+                ],
+                "sections": [
+                    {
+                        "name": "Nalya",
+                        "chest_unopened_img": "images/nalya.png",
+                        "chest_opened_img": "images/bwnalya.png",
+                        "visibility_rules": ["retrance"],
+                        "access_rules": ["retrance"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Uzo", 
+                "map_locations": [
+                        {
+                            "x": 42,
+                            "y": 973,
+                            "map": "map"
+                        },
+                        {
+                            "x": 180,
+                            "y": 2700,
+                            "map": "motavia"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Uzo",
+                        "chest_unopened_img": "images/uzo.png",
+                        "chest_opened_img": "images/bwuzo.png",
+                        "visibility_rules": ["retrance"],
+                        "access_rules": ["retrance,foil"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Torinco", 
+                "map_locations": [
+                        {
+                            "x": 560,
+                            "y": 965,
+                            "map": "map"
+                        },
+                        {
+                            "x": 3020,
+                            "y": 2650,
+                            "map": "motavia"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Torinco",
+                        "chest_unopened_img": "images/nalya.png",
+                        "chest_opened_img": "images/bwnalya.png",
+                        "visibility_rules": ["retrance"],
+                        "access_rules": ["retrance,foil"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Termi", 
+                "map_locations": [
+                        {
+                            "x": 650,
+                            "y": 765,
+                            "map": "map"
+                        },
+                        {
+                            "x": 3540,
+                            "y": 1680,
+                            "map": "motavia"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Termi",
+                        "chest_unopened_img": "images/termi.png",
+                        "chest_opened_img": "images/bwtermi.png",
+                        "visibility_rules": ["retrance"],
+                        "access_rules": ["digger,retrance","retrance,foil"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Krup", 
+                "map_locations": [
+                        {
+                            "x": 314,
+                            "y": 880,
+                            "map": "map"
+                        },
+                        {
+                            "x": 1695,
+                            "y": 2230,
+                            "map": "motavia"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Krup",
+                        "chest_unopened_img": "images/krup.png",
+                        "chest_opened_img": "images/bwkrup.png",
+                        "visibility_rules": ["retrance"],
+                        "access_rules": ["retrance"],
+                        "item_count": 1
+                    }
+                ]
+            },
+            {
+                "name": "Ryuon", 
+                "map_locations": [
+                        {
+                            "x": 160,
+                            "y": 326,
+                            "map": "map"
+                        },
+                        {
+                            "x": 530,
+                            "y": 1340,
+                            "map": "desolis"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Ryuon",
+                        "chest_unopened_img": "images/ryuon.png",
+                        "chest_opened_img": "images/bwryuon.png",
+                        "visibility_rules": ["retrance"],
+                        "access_rules": ["retrance"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Raja Temple", 
+                "map_locations": [
+                        {
+                            "x": 160,
+                            "y": 377,
+                            "map": "map"
+                        },
+                        {
+                            "x": 530,
+                            "y": 1520,
+                            "map": "desolis"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Raja Temple",
+                        "chest_unopened_img": "images/rajatemple.png",
+                        "chest_opened_img": "images/bwrajatemple.png",
+                        "visibility_rules": ["retrance"],
+                        "access_rules": ["retrance"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Zosa", 
+                "map_locations": [
+                        {
+                            "x": 307,
+                            "y": 128,
+                            "map": "map"
+                        },
+                        {
+                            "x": 980,
+                            "y": 530,
+                            "map": "desolis"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Zosa",
+                        "chest_unopened_img": "images/zosa.png",
+                        "chest_opened_img": "images/bwzosa.png",
+                        "visibility_rules": ["retrance"],
+                        "access_rules": ["digger,retrance"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Reshel", 
+                "map_locations": [
+                        {
+                            "x": 635,
+                            "y": 175,
+                            "map": "map"
+                        },
+                        {
+                            "x": 1970,
+                            "y": 730,
+                            "map": "desolis"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Lvl 18+ Minor Boss",
+                        "chest_unopened_img": "images/igg.png",
+                        "chest_opened_img": "images/iggbw.png",
+                        "access_rules": ["digger"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Meese", 
+                "map_locations": [
+                        {
+                            "x": 740,
+                            "y": 207,
+                            "map": "map"
+                        },
+                        {
+                            "x": 2290,
+                            "y": 850,
+                            "map": "desolis"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Meese",
+                        "chest_unopened_img": "images/meese.png",
+                        "chest_opened_img": "images/bwmeese.png",
+                        "visibility_rules": ["retrance"],
+                        "access_rules": ["digger,retrance"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            },
+            {
+                "name": "Jut", 
+                "map_locations": [
+                        {
+                            "x": 608,
+                            "y": 300,
+                            "map": "map"
+                        },
+                        {
+                            "x": 1895,
+                            "y": 1220,
+                            "map": "desolis"
+                        }
+                ],
+                "sections": [
+                    {
+                        "name": "Jut",
+                        "chest_unopened_img": "images/jut.png",
+                        "chest_opened_img": "images/bwjut.png",
+                        "visibility_rules": ["retrance"],
+                        "access_rules": ["digger,retrance"],
+                        "item_count": 1
+                       
+                    }
+                ]
+            }
+            
+        ]
+    }
+]
